@@ -8,6 +8,8 @@ import {
 } from "@/components/ui/sheet";
 import { MailIcon, MapPinIcon, MenuIcon, PhoneCallIcon } from "lucide-react";
 
+import { contactInfo } from "@/lib/data";
+
 function Header() {
   return (
     <header className="px-12 md:px-28 py-6 flex justify-between items-center border-b sticky top-0 bg-white z-50">
@@ -52,19 +54,19 @@ function Header() {
               <div>
                 <h4 className="text-2xl">Phone</h4>
                 <span className="flex gap-2 items-center">
-                  <PhoneCallIcon size={16} /> +91 1230550199
+                  <PhoneCallIcon size={16} /> {contactInfo.phone_uae}
                 </span>
               </div>
               <div>
                 <h4 className="text-2xl">Email</h4>
                 <span className="flex gap-2 items-center">
-                  <MailIcon size={16} /> moonlit@gmail.com
+                  <MailIcon size={16} /> {contactInfo.email}
                 </span>
               </div>
               <div>
                 <h4 className="text-2xl">Address</h4>
                 <span className="flex gap-2 items-center">
-                  <MapPinIcon size={16} /> 280 Augusta Avenue, M5T 2L9 Toronto
+                  <MapPinIcon size={16} /> {contactInfo.address_uae}
                 </span>
               </div>
             </div>

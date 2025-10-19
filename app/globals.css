@@ -6,6 +6,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand: #AB8A62;
   --font-gilda: var(--font-gilda);
   --font-jost: var(--font-jost);
   --color-sidebar-ring: var(--sidebar-ring);

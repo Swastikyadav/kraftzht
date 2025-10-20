@@ -12,7 +12,7 @@ import { contactInfo } from "@/lib/data";
 
 function Header() {
   return (
-    <header className="px-12 md:px-28 py-6 flex justify-between items-center border-b sticky top-0 bg-white z-50">
+    <header className="px-8 md:px-28 py-6 flex justify-between items-center border-b sticky top-0 bg-white z-50">
       <h1 className="text-2xl">KRAFTz</h1>
 
       <nav className="hidden md:flex gap-4 text-gray-500">

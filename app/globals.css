@@ -124,3 +124,9 @@
     @apply font-gilda font-normal;
   }
 }
+
+@layer utilities {
+  .clip-path-top-right {
+    clip-path: polygon(69.249% 0,0 0,0 100%,99.939% 100%,99.939% 50%,58.249% 50%,58.249% 0);
+  }
+}

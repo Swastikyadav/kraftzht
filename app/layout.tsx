@@ -21,7 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${gilda.variable} ${jost.variable} antialiased`}>
+      <body
+        className={`${gilda.variable} ${jost.variable} antialiased max-w-[1536px] mx-auto`}
+      >
         {children}
       </body>
     </html>

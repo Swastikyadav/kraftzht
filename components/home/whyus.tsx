@@ -16,7 +16,7 @@ function Whyus() {
         >
           Why Us?
         </h6>
-        <h2 className="my-8 text-4xl md:text-6xl">What Choose KRAFTz?</h2>
+        <h2 className="my-8 text-4xl md:text-6xl">Why Choose KRAFTz?</h2>
       </div>
       <p className="text-gray-500 leading-[1.5] text-lg my-8">
         Empowering the hotel and travel ecosystem to perform, grow, and lead.

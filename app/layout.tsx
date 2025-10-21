@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Gilda_Display, Jost } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/common/header";
+import PreHeader from "@/components/common/preheader";
+import Footer from "@/components/common/footer";
 
 const gilda = Gilda_Display({
   subsets: ["latin"],
@@ -24,7 +27,10 @@ export default function RootLayout({
       <body
         className={`${gilda.variable} ${jost.variable} antialiased max-w-[1536px] mx-auto`}
       >
+        <PreHeader />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

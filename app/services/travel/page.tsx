@@ -1,10 +1,12 @@
-import HospitalityServices from "@/components/services/hospitalityHero";
+import HospitalityServices from "@/components/services/hero";
 import ServiceOverview from "@/components/services/overview";
+import { CheckCircleIcon } from "lucide-react";
+import Link from "next/link";
 
 function DigitalMarketing() {
   return (
     <>
-      <HospitalityServices title="Digital Marketing Solutions" />
+      <HospitalityServices title="Travel Experiences" />
 
       <ServiceOverview>
         <p className="text-gray-500 leading-[1.5] text-lg">
@@ -14,6 +16,30 @@ function DigitalMarketing() {
           personal, family, and business needs. Every itinerary is crafted with
           precision, privacy, and perfection.
         </p>
+      </ServiceOverview>
+
+      <ServiceOverview>
+        <div className="flex flex-wrap justify-between gap-4">
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Philosophy
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Personal & Family Travel
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Corporate & Business
+            Travel
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            {" "}
+            <CheckCircleIcon className="text-brand" /> Ultra-Luxury & Lifestyle
+            Experiences
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Cultural & Experiential
+            Journeys
+          </p>
+        </div>
       </ServiceOverview>
 
       <ServiceOverview title="Philosophy">
@@ -72,6 +98,12 @@ function DigitalMarketing() {
           a service provider; we’re your silent partner in crafting journeys
           that speak the language of luxury.
         </p>
+
+        <Link href="/contacts">
+          <button className="bg-brand text-white rounded cursor-pointer p-3 my-4">
+            Connect With KRAFTz
+          </button>
+        </Link>
 
         <br />
         <br />

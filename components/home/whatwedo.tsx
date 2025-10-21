@@ -7,6 +7,7 @@ import {
   PlaneTakeoffIcon,
   SquareUserIcon,
 } from "lucide-react";
+import Link from "next/link";
 
 function WhatWeDo() {
   return (
@@ -33,7 +34,7 @@ function WhatWeDo() {
         </p>
       </section>
 
-      <div className="px-8 md:px-28 pb-28 flex flex-wrap gap-y-12 gap-x-24 justify-center items-center flex-col md:flex-row">
+      <div className="px-8 md:px-28 pb-12 flex flex-wrap gap-y-12 gap-x-24 justify-center items-center flex-col md:flex-row">
         <article className="text-start w-full md:w-2/4 lg:w-1/4">
           <CircleDollarSignIcon size={48} className="text-brand" />
           <h4 className="my-6 text-xl">Revenue Management</h4>
@@ -91,6 +92,19 @@ function WhatWeDo() {
           </p>
         </article>
       </div>
+
+      <section className="px-8 md:px-28 xl:px-96 pb-28 text-center bg-white mt-0">
+        <p className="text-gray-500 leading-[1.5] text-lg">
+          {
+            "Every hotel has untapped potential. Let's unlock yours - with strategy, precision, and imagination."
+          }
+        </p>
+        <Link href="/contacts">
+          <button className="bg-brand text-white rounded cursor-pointer p-3 my-4">
+            Connect With KRAFTz
+          </button>
+        </Link>
+      </section>
     </div>
   );
 }

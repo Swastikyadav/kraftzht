@@ -1,7 +1,7 @@
-function HospitalityServices({ title }: { title: string }) {
+function ServicesHero({ title }: { title: string }) {
   return (
     <section className="relative h-[128vh] md:h-screen">
-      <div className="relative h-full bg-[url(https://moonlit-nextjs.netlify.app/assets/images/pages/header__bg.webp)] bg-cover bg-top bg-no-repeat">
+      <div className="relative h-full bg-[url(https://moonlit-nextjs.netlify.app/assets/images/pages/blog/1.webp)] bg-cover bg-top bg-no-repeat">
         <div className="absolute top-0 left-0 h-full w-full bg-black opacity-40"></div>
       </div>
 
@@ -14,4 +14,4 @@ function HospitalityServices({ title }: { title: string }) {
   );
 }
 
-export default HospitalityServices;
+export default ServicesHero;

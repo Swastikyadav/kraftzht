@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 function Whyus() {
   return (
@@ -33,12 +34,12 @@ function Whyus() {
             loyalty. Krafting integrated revenue, distribution, and marketing
             ecosystems that help properties grow sustainably.
           </p>
-          <a
-            href="#"
+          <Link
+            href="/contacts"
             className="border-b border-brand font-semibold text-brand"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
       <section className="border flex flex-col lg:flex-row-reverse -mt-1">
@@ -50,12 +51,12 @@ function Whyus() {
             mix, distrubution and dynamic pricing for consistent RevPAR growth
             leading to higher yelid.
           </p>
-          <a
-            href="#"
+          <Link
+            href="/contacts"
             className="border-b border-brand font-semibold text-brand"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
       <section className="border flex flex-col lg:flex-row -mt-1">
@@ -67,12 +68,12 @@ function Whyus() {
             simplify operations and integrating with leading tech providers
             which empowers leadership to make fast, informed decisions.
           </p>
-          <a
-            href="#"
+          <Link
+            href="/contacts"
             className="border-b border-brand font-semibold text-brand"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
       <section className="border flex flex-col lg:flex-row-reverse -mt-1">
@@ -84,12 +85,12 @@ function Whyus() {
             adding in-house costs. Our solutions focus on delivering results and
             ROI.
           </p>
-          <a
-            href="#"
+          <Link
+            href="/contacts"
             className="border-b border-brand font-semibold text-brand"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
       <section className="border flex flex-col lg:flex-row -mt-1">
@@ -103,12 +104,12 @@ function Whyus() {
             chosen securing higher ratings and achieving definitive market
             conversion.
           </p>
-          <a
-            href="#"
+          <Link
+            href="/contacts"
             className="border-b border-brand font-semibold text-brand"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
       <section className="border flex flex-col lg:flex-row-reverse -mt-1">
@@ -121,12 +122,12 @@ function Whyus() {
             accountability, and the achievement of verifiable, measured
             outcomes.
           </p>
-          <a
-            href="#"
+          <Link
+            href="/contacts"
             className="border-b border-brand font-semibold text-brand"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
     </section>

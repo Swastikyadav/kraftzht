@@ -1,5 +1,7 @@
-import HospitalityServices from "@/components/services/hospitalityHero";
+import HospitalityServices from "@/components/services/hero";
 import ServiceOverview from "@/components/services/overview";
+import { CheckCircleIcon } from "lucide-react";
+import Link from "next/link";
 
 function DigitalMarketing() {
   return (
@@ -17,6 +19,47 @@ function DigitalMarketing() {
           impressions.
         </p>
       </ServiceOverview>
+
+      <ServiceOverview>
+        <div className="flex flex-wrap justify-between gap-4">
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Digital Strategy &
+            Consulting
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Search Engine
+            Optimization (SEO)
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Performance Marketing
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            {" "}
+            <CheckCircleIcon className="text-brand" /> Social Media Strategy &
+            Management
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Content Strategy &
+            Creation
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Website & Experience
+            Design
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> AI Marketing &
+            Performance Insights
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Brand Reputation &
+            Communication
+          </p>
+          <p className="flex items-center gap-2 w-full md:w-1/3">
+            <CheckCircleIcon className="text-brand" /> Influencer Marketing
+          </p>
+        </div>
+      </ServiceOverview>
+
       <ServiceOverview title="Digital Strategy & Consulting">
         <p className="text-gray-500 leading-[1.5] text-lg">
           Kraftz We start by decoding your business DNA — understanding your
@@ -149,6 +192,12 @@ function DigitalMarketing() {
           experience-driven marketing. Whether you’re a startup or a global
           enterprise, we’ll craft your digital story with precision and purpose.
         </p>
+
+        <Link href="/contacts">
+          <button className="bg-brand text-white rounded cursor-pointer p-3 my-4">
+            Connect With KRAFTz
+          </button>
+        </Link>
 
         <br />
         <br />

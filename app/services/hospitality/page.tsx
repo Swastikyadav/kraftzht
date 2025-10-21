@@ -1,6 +1,7 @@
-import HospitalityServices from "@/components/services/hospitalityHero";
+import HospitalityServices from "@/components/services/hero";
 import ServiceOverview from "@/components/services/overview";
 import { CheckCircleIcon } from "lucide-react";
+import Link from "next/link";
 
 function Hospitality() {
   return (
@@ -309,6 +310,13 @@ function Hospitality() {
           optimizationVisual asset curation (photos/videos)Localization for
           regional markets
         </p>
+
+        <Link href="/contacts">
+          <button className="bg-brand text-white rounded cursor-pointer p-3 my-4">
+            Connect With KRAFTz
+          </button>
+        </Link>
+
         <br />
         <br />
         <br />

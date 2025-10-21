@@ -1,7 +1,17 @@
-function ContactForm() {
+function ContactForm({
+  isContactPage = false,
+  formTitle = "Get In Touch",
+}: {
+  isContactPage?: boolean;
+  formTitle: string;
+}) {
   return (
-    <div className="w-full md:w-5/12 bg-white rounded-lg text-gray-800 p-12 text-center">
-      <h4 className="text-3xl">Get In Touch</h4>
+    <div
+      className={`w-full ${
+        isContactPage ? "shadow-lg" : "md:w-5/12"
+      } bg-white rounded-lg text-gray-800 p-12 text-center`}
+    >
+      <h4 className="text-3xl">{formTitle}</h4>
       <form className="flex flex-col">
         <input
           type="text"

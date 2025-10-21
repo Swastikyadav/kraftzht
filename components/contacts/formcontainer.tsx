@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ContactForm from "../home/contactform";
 import { cn } from "@/lib/utils";
 import { contactInfo } from "@/lib/data";

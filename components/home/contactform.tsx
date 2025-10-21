@@ -3,7 +3,7 @@ function ContactForm({
   formTitle = "Get In Touch",
 }: {
   isContactPage?: boolean;
-  formTitle: string;
+  formTitle?: string;
 }) {
   return (
     <div
